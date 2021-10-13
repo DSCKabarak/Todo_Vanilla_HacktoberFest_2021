@@ -49,11 +49,7 @@ section {
   display: grid;
   gap: var(--grid-gap);
 }
-.task_item {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr 0.2fr 0.2fr;
-}
+
 /* Unset default vars  */
 button,
 input {
@@ -92,6 +88,9 @@ input:active {
   border: 0.2rem solid var(--tk-active);
 }
 .task_item {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 0.2fr 0.2fr;
   padding: var(--padding);
   border-radius: var(--border-radius);
   background-color: var(--tk-color);
