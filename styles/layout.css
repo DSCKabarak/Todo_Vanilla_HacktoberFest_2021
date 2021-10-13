@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    place-items: center;
+  }
+  html {
+    color: var(--text-color);
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    background-color: var(--bg);
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    transition: 0.4s;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--tk-color);
+    border-radius: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover,
+  ::-webkit-scrollbar-thumb:active {
+    background: var(--tk-control);
+    border-radius: 2px;
+  }
+  .root {
+    min-width: 60%;
+    max-width: 99%;
+  }
+  section {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: 1fr auto;
+  }
+  .task_list {
+    display: grid;
+    gap: var(--grid-gap);
+  }
+  

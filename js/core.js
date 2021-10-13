@@ -52,7 +52,7 @@ function createTask(new_task) {
 function dialog(message) {
   //   alert(message ?? "Error Ocurred 🐱‍💻");
   const alert_box = document.createElement("div");
-  alert_box.className = "dialog";
+  alert_box.className = "warning";
   const span = document.createElement("span");
   span.textContent = message ?? "Error Ocurred 🐱‍💻";
   const close = document.createElement("div");
@@ -63,7 +63,7 @@ function dialog(message) {
   close.addEventListener("click", () => {
     error_pane.removeChild(alert_box);
   });
-  //   TODO: Create a Time delay
-  //   delay(5000);
-  //   error_pane.removeChild(alert_box);
+  setTimeout(() => {
+    error_pane.removeChild(alert_box);
+  }, 2000);
 }
