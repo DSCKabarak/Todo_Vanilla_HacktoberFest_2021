@@ -1,10 +1,16 @@
-# neutralinojs-minimal
-The simplest template for a Neutralinojs app. It's possible to use your favorite frontend framework using the following steps.
+# TODO vanilla Desktop
 
-- Create a new project using your favorite frontend framework. (Eg: `ng new --directory .`)
-- Make the frontend framework's build path and Neutralino config's `url`, `resourcesPath` the same.
-- Build with the correct base href.
+This is the desktop version of Todo app built using vanilla js.
+It uses # neutralinojs under the hood to do all heavy lifting
 
-# Icon credits
+## Installation
+Upon cloning run
+`` yarn global add @neutralinojs/neu ``
+or
+`` npm -g i @neutralinojs/neu ``
 
-- `trayIcon.png` - Made by [Freepik](https://www.freepik.com) and downloaded from [Flaticon](https://www.flaticon.com)
+After it completes run to install dependacies and any prequisites
+`` neu run ``
+
+To build the project to executable run
+`` neu build ``
