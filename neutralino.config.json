@@ -1,0 +1,33 @@
+{
+  "applicationId": "personal.todo.app",
+  "port": 0,
+  "defaultMode": "window",
+  "enableHTTPServer": true,
+  "enableNativeAPI": true,
+  "url": "/src/",
+  "nativeBlockList": [],
+  "modes": {
+    "window": {
+      "title": "Personal Todo app",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 250,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/src/icons/appIcon.png",
+      "enableInspector": false,
+      "borderless": false,
+      "maximize": false
+    },
+    "browser": {},
+    "cloud": {}
+  },
+  "cli": {
+    "binaryName": "Personal Todo app",
+    "resourcesPath": "/src/",
+    "clientLibrary": "/src/core/neutralino.js",
+    "binaryVersion": "2.8.0",
+    "clientVersion": "1.5.0"
+  }
+}
