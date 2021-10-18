@@ -13,7 +13,6 @@ input {
 button {
   cursor: pointer;
   padding: var(--padding);
-  max-height: 2rem;
   border-radius: var(--border-radius);
   background-color: var(--tk-control);
   text-align: center;
@@ -37,18 +36,18 @@ input:active {
   border: 0.2rem solid var(--tk-active);
 }
 .task_item {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 0.2fr 0.2fr;
+  padding: var(--padding);
   border-radius: var(--border-radius);
   background-color: var(--tk-color);
 }
 .task_text {
+  padding-left: var(--padding);
+  display: flex;
+  align-items: center;
   font-weight: 600;
-  white-space: -moz-pre-wrap !important;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-all;
-  white-space: normal;
 }
 
 /* Alert */
